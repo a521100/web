@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>Servletone</servlet-name>
+        <servlet-class>servlet.Servletone</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servletone</servlet-name>
+        <url-pattern>/servlet/Servletone</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletUpload</servlet-name>
+        <servlet-class>servlet.ServletUpload</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletUpload</servlet-name>
+        <url-pattern>/servlet/ServletUpload</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletTwo</servlet-name>
+        <servlet-class>servlet.ServletTwo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletTwo</servlet-name>
+        <url-pattern>/servlet/ServletTwo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletLogin</servlet-name>
+        <servlet-class>servlet.ServletLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletLogin</servlet-name>
+        <url-pattern>/servlet/ServletLogin</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletDown</servlet-name>
+        <servlet-class>servlet.ServletDown</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDown</servlet-name>
+        <url-pattern>/servlet/ServletDown</url-pattern>
+    </servlet-mapping>
+</web-app>
+
+
